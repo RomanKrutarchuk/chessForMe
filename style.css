@@ -1,0 +1,52 @@
+.body {
+  background-color: rgb(104, 104, 104);
+}
+.globalContainer {
+  width: max-content;
+  height: max-content;
+  margin: auto;
+}
+.container {
+  position: relative;
+  display: block;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+.wrapper {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  grid-template-rows: repeat(7, auto);
+}
+.box {
+  box-sizing: border-box;
+  border: solid rgb(122, 122, 255) 1px;
+  background-color: rgb(158, 192, 255);
+}
+.box4 {
+  background-color: rgb(66, 19, 153);
+}
+.box46 {
+  background-color: rgb(66, 19, 153);
+}
+.circle1 {
+  position: absolute;
+  height: 14.3%;
+  width: 14.3%;
+  background-color: rgb(252, 196, 14);
+  left: calc(14.3% * 3);
+  top: 0%;
+  border-radius: 50%;
+  transition: left 0.3s, right 0.3s, top 0.3s, bottom 0.3s;
+}
+.circle2 {
+  position: absolute;
+  height: 14.3%;
+  width: 14.3%;
+  background-color: rgb(252, 14, 34);
+  left: calc(14.3% * 3);
+  bottom: 0%;
+  border-radius: 50%;
+  transition: left 0.3s, right 0.3s, top 0.3s, bottom 0.3s;
+}
